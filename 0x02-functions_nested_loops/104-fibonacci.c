@@ -38,3 +38,7 @@ int main(void)
 	num12 = num22;
 	num21 = half1;
 	num22 = half2;
+	}
+	printf("\n");
+	return (0);
+}
