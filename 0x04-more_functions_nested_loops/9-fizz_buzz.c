@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * @um: 1- 100
  * Return: 0 success
  */
 
@@ -12,7 +13,7 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if ((num % 3) == 0 && (num % 5) == 0)
-			printf("FIzzBuzz");
+			printf("FizzBuzz");
 
 		else if ((num % 3) == 0)
 			printf("Fizz");
@@ -31,4 +32,3 @@ int main(void)
 
 	return (0);
 }
-
